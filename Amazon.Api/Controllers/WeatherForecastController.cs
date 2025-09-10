@@ -17,7 +17,7 @@ namespace Amazon.Api.Controllers
         {
             _logger = logger;
         }
-
+//This is the WeatherForecasting Controller
         [HttpGet(Name = "GetWeatherForecast")]
         public IEnumerable<WeatherForecast> Get()
         {
